@@ -1,0 +1,60 @@
+	User name	Host name	Password	Global privileges 	User group	Grant	Action
+	Any	%	No 	USAGE		No	Edit privileges Edit privileges	Export Export	
+	pma	localhost	No	USAGE		No	Edit privileges Edit privileges	Export Export	
+	root	127.0.0.1	No	ALL PRIVILEGES		Yes	Edit privileges Edit privileges	Export Export	
+	root	::1	No	ALL PRIVILEGES		Yes	Edit privileges Edit privileges	Export Export	
+	root	localhost	No	ALL PRIVILEGES		Yes	Edit privileges Edit privileges	Export Export	
+With selected:  Check all With selected: 
+
+
+
+
+Create database Create database Documentation
+Mishuk
+
+latin1_swedish_ci
+
+User: admin
+Pass: Pritom01956@#
+
+
+style add  :   <?php echo get_stylesheet_uri()
+<?= get_template_directory_uri() ?>
+
+
+Add New File: functions.php
+php command written style
+<?php 
+
+?>
+
+1.wp_enqueue_style(,); parameter1=handle  ,  parameter2=src=""
+		'string' get_stylesheet_uri()
+.2 wp_enqueue-style()
+index.html
+<head>
+<?php wp_head();>
+</head>
+functions.php te jodi kono command likha hoy tahole index.php te arekta command likhte hobe
+
+
+Script syntex
+3. wp_enqueue_script( $handle, $src, $deps, $ver, $in_footer );
+wp_enqueue_script( 'script-name', get_template_directory_uri() . '/Assets/js/bootstrap.bundle.min.js', array(), '1.0.0', true );
+4. add_theme_support('custom-logo');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
