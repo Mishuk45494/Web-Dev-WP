@@ -1,0 +1,38 @@
+/*
+Theme Name: Padma Bridge
+Author: Mishuk Sarker
+Author URI: https://wordpress.org/
+Version: 1.3
+Text Domain: review padma pridge
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.slider{
+    position: absolute;
+}
+.logo{
+    position: relative;
+    top:0;
+    left: 0;
+    z-index: 1;
+}
+.menu{
+    margin-top: 300px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+}
+.menu ul li a :hover{
+    background: red;
+    padding: 6px;
+    color: black;
+}
+.card img{
+    margin-top: -50px;
+}
